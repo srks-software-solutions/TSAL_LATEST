@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9bca604342cd43eb917dfab1452c2e18" Name="Diagram1">
+        <EntityTypeShape EntityType="i_facility_tsalModel.alarm_history_master" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.alarm_master" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.alarm_report" Width="1.5" PointX="12.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.automaticjobcard" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.book" Width="1.5" PointX="12.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.code_master" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.cutting_time_report" Width="1.5" PointX="2.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.cutting_time_report_pdf" Width="1.5" PointX="14.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.dashboard_menus" Width="1.5" PointX="15.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.day_st_end_time" Width="1.5" PointX="10.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.frommail" Width="1.5" PointX="12.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.handle_no_ping" Width="1.5" PointX="14.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.IOTGatwayPacketsData" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.jobcard_details" Width="1.5" PointX="4.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.loginDetail" Width="1.5" PointX="6.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.machine_master" Width="1.5" PointX="16.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.mailmaster" Width="1.5" PointX="17.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.mailmasterprogesc" Width="1.5" PointX="17.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.main_time_rep" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.menu_styles" Width="1.5" PointX="0.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.menu" Width="1.5" PointX="18.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.message_code_master" Width="1.5" PointX="8.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.message_history_master" Width="1.5" PointX="10.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.modeEMail" Width="1.5" PointX="12.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.ModeLog" Width="1.5" PointX="18.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.opcuttimereport" Width="1.5" PointX="18.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.opcuttimereport_pdf" Width="1.5" PointX="19.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.operating_time_report" Width="1.5" PointX="19.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.operating_time_report_pdf" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.operationlog" Width="1.5" PointX="20.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.parameter" Width="1.5" PointX="14.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.parameters_master" Width="1.5" PointX="20.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.pcb" Width="1.5" PointX="20.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.pcb_details" Width="1.5" PointX="0.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.pcb_parameters" Width="1.5" PointX="2.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.pcbdaq" Width="1.5" PointX="4.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.pcbdaqin_tbl" Width="1.5" PointX="21.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.pcbdaqin_tblNew" Width="1.5" PointX="21.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.pcbdps_master" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.PINGHANDLER_tbl" Width="1.5" PointX="22.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.program_master" Width="1.5" PointX="22.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.program_temp" Width="1.5" PointX="16.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.recipientmailid" Width="1.5" PointX="5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.role_master" Width="1.5" PointX="22.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.scrapQty" Width="1.5" PointX="6.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.shift_master" Width="1.5" PointX="23.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.sidebar_menus" Width="1.5" PointX="8.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.smtpdetail" Width="1.5" PointX="10.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbl_autoreport_log" Width="1.5" PointX="7.5" PointY="76.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbl_autoreportbasedon" Width="1.5" PointX="3" PointY="67.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbl_autoreportsetting" Width="1.5" PointX="5.25" PointY="70" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbl_autoreporttime" Width="1.5" PointX="3" PointY="71.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbl_multiwoselection" Width="1.5" PointX="18" PointY="44.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbl_PrevOperationCancel" Width="1.5" PointX="18.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbl_reportmaster" Width="1.5" PointX="3" PointY="81.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbl_TcfPrevOperationCancel" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblactivity" Width="1.5" PointX="24.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblactivitylog" Width="1.5" PointX="12.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblapp_paths" Width="1.5" PointX="24.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblBachUplossofentry" Width="1.5" PointX="24.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblBackUphmiscreen" Width="1.5" PointX="20.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblBackupoeedashboardvariable" Width="1.5" PointX="14.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblbatchhmiscreen" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblbreakdown" Width="1.5" PointX="10.5" PointY="46.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblbreakdowncode" Width="1.5" PointX="0.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblcell" Width="1.5" PointX="8.25" PointY="70.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblcellForSieman" Width="1.5" PointX="2.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblCriticalMachine" Width="1.5" PointX="26.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblcustomer" Width="1.5" PointX="26.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbldailyprodstatu" Width="1.5" PointX="15.75" PointY="38.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbldailyprodstatushi" Width="1.5" PointX="26.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbldaytiming" Width="1.5" PointX="22.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblddl" Width="1.5" PointX="26.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblddlBackup" Width="1.5" PointX="16.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblDDLStatu" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbldowntimecategory" Width="1.5" PointX="10.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbldowntimedetail" Width="1.5" PointX="13" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblemailescalation" Width="1.5" PointX="10.5" PointY="69.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblemailreporttype" Width="1.5" PointX="2.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblEmployee" Width="1.5" PointX="28.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblendcode" Width="1.5" PointX="28.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblescalationlog" Width="1.5" PointX="10.5" PointY="50.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblgenericworkcode" Width="1.5" PointX="5.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblgenericworkentry" Width="1.5" PointX="8" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblhmiscreen" Width="1.5" PointX="15.75" PointY="42.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblholdcode" Width="1.5" PointX="8.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblhrdetail" Width="1.5" PointX="28.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbllivedailyprodstatu" Width="1.5" PointX="15.75" PointY="51.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbllivehmiscreen" Width="1.5" PointX="15.75" PointY="55.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbllivehmiscreenrep" Width="1.5" PointX="15.75" PointY="77.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbllivelossofentry" Width="1.5" PointX="10.5" PointY="55" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbllivelossofentryrep" Width="1.5" PointX="10.5" PointY="59.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbllivemanuallossofentry" Width="1.5" PointX="10.5" PointY="77.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbllivemanuallossofentryrep" Width="1.5" PointX="10.5" PointY="82.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbllivemode" Width="1.5" PointX="15.75" PointY="64.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbllivemodedb" Width="1.5" PointX="15.75" PointY="85.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblliveModeDbHi" Width="1.5" PointX="28.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbllivemultiwoselection" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbllossescode" Width="1.5" PointX="8.25" PointY="62.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbllossofentry" Width="1.5" PointX="10.5" PointY="87.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblmachine_master" Width="1.5" PointX="28.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblmachineallocation" Width="1.5" PointX="18.75" PointY="76.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblmachinecategory" Width="1.5" PointX="28.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblmachinedetail" Width="1.5" PointX="13.5" PointY="67.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblmachinedetailsForSeiman" Width="1.5" PointX="4.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblmachinedetailsnew" Width="1.5" PointX="16.5" PointY="70" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblmailid" Width="1.5" PointX="10.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblmanuallossofentry" Width="1.5" PointX="10.5" PointY="93" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblmasterparts_st_sw" Width="1.5" PointX="16.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblmimic" Width="1.5" PointX="15.75" PointY="90.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblMimicsBackup" Width="1.5" PointX="28.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblmode" Width="1.5" PointX="15.75" PointY="94" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblModeBackUp" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblmodulehelper" Width="1.5" PointX="30.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblmodulemaster" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblmultipleworkorder" Width="1.5" PointX="18.75" PointY="70.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblnetworkdetailsforddl" Width="1.5" PointX="30.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblNoLogin" Width="1.5" PointX="30.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblOee" Width="1.5" PointX="22.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblOEECat" Width="1.5" PointX="30.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblOEEConfig" Width="1.5" PointX="30.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbloeedashboardfinalvariable" Width="1.5" PointX="0.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbloeedashboardvariable" Width="1.5" PointX="24.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbloeedashboardvariablesBackup" Width="1.5" PointX="32.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbloeedashboardvariablestoday" Width="1.5" PointX="32.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbloeeDashBoardVBackUp" Width="1.5" PointX="32.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblolecaldetail" Width="1.5" PointX="32.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbloperatordetail" Width="1.5" PointX="32.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblpart" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblpartwisesp" Width="1.5" PointX="6.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblpartwiseworkcenter" Width="1.5" PointX="15.75" PointY="99.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblPcpNo" Width="1.5" PointX="8.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblplannedbreak" Width="1.5" PointX="21.75" PointY="70.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblplant" Width="1.5" PointX="0.75" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblplantForSeiman" Width="1.5" PointX="10.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblpreactorlog" Width="1.5" PointX="12.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblpreactorschedule" Width="1.5" PointX="18.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblpriorityalarm" Width="1.5" PointX="26.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblProcess" Width="1.5" PointX="28.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblrejectreason" Width="1.5" PointX="34.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblreportholder" Width="1.5" PointX="34.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblroleplaymaster" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblrole" Width="1.5" PointX="19.5" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblsendermailid" Width="1.5" PointX="5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblshift_breaks" Width="1.5" PointX="34.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblshift_mstr" Width="1.5" PointX="19.5" PointY="81.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblshiftdetail" Width="1.5" PointX="10" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblshiftdetails_machinewise" Width="1.5" PointX="15.75" PointY="103.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblshiftmethod" Width="1.5" PointX="7.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblshiftplanner" Width="1.5" PointX="18.75" PointY="64.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblshop" Width="1.5" PointX="3" PointY="76.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblshopForSeiman" Width="1.5" PointX="34.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblSPbreakdown" Width="1.5" PointX="34.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblSpddl" Width="1.5" PointX="34.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.TblSpGeneric" Width="1.5" PointX="20.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblSPgenericworkentry" Width="1.5" PointX="34.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblSplivehmiscreen" Width="1.5" PointX="34.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblSPlivelossofentry" Width="1.5" PointX="30.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblSPlivemanuallossofentry" Width="1.5" PointX="36.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblSPlivemodedb" Width="1.5" PointX="36.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblSPmanuallossofentry" Width="1.5" PointX="36.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblSPrejectreason" Width="1.5" PointX="36.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblSpwolossess" Width="1.5" PointX="36.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblSpworeport" Width="1.5" PointX="36.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblTcfApprovedMaster" Width="1.5" PointX="2.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbltcflossofentry" Width="1.5" PointX="4.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblTcfModule" Width="1.5" PointX="6.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblTempCalculate" Width="1.5" PointX="14.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblTempLiveLossOfEntry" Width="1.5" PointX="8.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblTempMode" Width="1.5" PointX="10.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbltosapfilepath" Width="1.5" PointX="36.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbltosapshopname" Width="1.5" PointX="38.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblunasignedwo" Width="1.5" PointX="38.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblunit" Width="1.5" PointX="7.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tbluser" Width="1.5" PointX="21.75" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblwolossess" Width="1.5" PointX="12.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblwolossessBackup" Width="1.5" PointX="38.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblworeport" Width="1.5" PointX="38.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblworeportBackup" Width="1.5" PointX="20.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.tblwqtyhmiscreen" Width="1.5" PointX="15.75" PointY="112.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.user_master" Width="1.5" PointX="17.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.user_menus" Width="1.5" PointX="26.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.main_time_view" Width="1.5" PointX="38.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.parametermaster_view" Width="1.5" PointX="38.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="i_facility_tsalModel.person" Width="1.5" PointX="38.75" PointY="37.75" IsExpanded="true" />
+        <AssociationConnector Association="i_facility_tsalModel.AutoEmailType" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.AutoReportID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.BasedOnID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ReportCellID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ReportID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ReportPlantID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ReportShopID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ReportTimeID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ReportWorkCentreID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.fkHMIID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.BreakdowncodeId" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.CellIDFK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.CellIDshiftplanner" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.CellIDtblmachinedetailsnew" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.CellIDtblMWO" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.FK_tblmachinedetails_tblcell" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.FK_tblplannedbreak_tblcell" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.PlantsId" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ShopId" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.MachineID1" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.tbldowntimedetails_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.PlantIDFK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ReasonLevel1FK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ReasonLevel2FK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ReasonLevel3FK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ShopIDFK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.WCIDFK" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ERTID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.EscalationLossCodeID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.GenericWorkID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.MachineIDhmi" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.MachineIDLDPS" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.FK_tbllivehmiscreen_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.MachineIDhmiLiveRep" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.LossCodeIDLiveLoss" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.LossCodeIDLiveLossRep" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ManualLossCodeIDLive" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ManualLossCodeIDLiveRep" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.machineryLive" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.machineryDBLive" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.FK_tbllivemultiwoselection_tbllivemultiwoselection" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.LossCodeID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ManualLossCodeID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.macid" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.shiftid" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.userid" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.FK_tblmachinedetails_tblplant" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.FK_tblmachinedetails_tblshop" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.FK_tblmode_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.FK_tblplannedbreak_tblmachinedetails" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.MachineID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.MachineIDshiftplanner" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.MachineIDShiftWise" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.MachineIDwqtyhmi" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.Mid" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.WCIDtblMWO" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.WorkCenterId" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.PlantIDtblmachinedetailsnew" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ShopIDtblmachinedetailsnew" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ModuleID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.PlantIDtblMWO" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ShopIdtblMWO" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.U_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.FK_tblplannedbreak_tblplant" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.FK_tblplannedbreak_tblshop" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.shiftbreak" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.PlantID" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.PlantIDshiftplanner" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.FK_tblusers_tblrolesPrimary" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.FK_tblusers_tblrolesSecondary" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ShiftMethodIDshiftmethod" ManuallyRouted="false" />
+        <AssociationConnector Association="i_facility_tsalModel.ShopIDshiftplanner" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
