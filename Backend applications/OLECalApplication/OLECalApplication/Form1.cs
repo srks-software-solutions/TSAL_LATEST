@@ -28,6 +28,7 @@ namespace OLECalApplication
             string username1 = nwDetails1.UserName;
             string password1 = nwDetails1.Password;
             string domainname1 = nwDetails1.DomainName;
+            path1 = @"C:\TVS_batery\Source";
             try
             {
                 //InitializeComponent();
@@ -136,7 +137,7 @@ namespace OLECalApplication
                     dt = GetDataTableFromExcel(filepath);
 
                     //DataView dataview = dt.DefaultView;
-                    dt.DefaultView.Sort = "Employee Number";
+                    dt.DefaultView.Sort = "EID";
                     //dataview.Sort = Convert.ToString(dt.Rows[0]["OpId"]);
                     //DataTable dt1 = dataview.ToTable();
                     for (int i = 0; i < dt.Rows.Count; i++)
@@ -144,18 +145,27 @@ namespace OLECalApplication
                         string opid = null;
                         opid = Convert.ToString(dt.Rows[i][1]);
                         string CorrectedDate = null;
-                        CorrectedDate = Convert.ToString(dt.Rows[i][2]);
-                        string stratDate = Convert.ToString(dt.Rows[i][3]);
-                        string startTime = Convert.ToString(dt.Rows[i][4]);
+                        CorrectedDate = Convert.ToString(dt.Rows[i][6]);
+                        string stratDate = Convert.ToDateTime( CorrectedDate).ToString("yyyy-MM-dd");
+                        string startTime = Convert.ToString(dt.Rows[i][7]);
                         if (startTime == "0" || startTime == "")
                             startTime = "00:00";
                         string StartDateTime = stratDate + " " + startTime;
-                        string endTime = Convert.ToString(dt.Rows[i][5]);
-                        string endDate = Convert.ToString(dt.Rows[i][6]);
+                        string endTime = Convert.ToString(dt.Rows[i][8]);
+                        
+                        string endDate = CorrectedDate;
+                       
+
                         if (endTime == "0" || endTime == "")
                             endTime = "00:00";
+                        endDate = GetEndCorrectedDate(endTime,Convert.ToDateTime(stratDate));
                         string endDateTime = endDate + " " + endTime;
-                        string durInMin = Convert.ToString(dt.Rows[i][7]);
+                        string TotaldurInHrs = Convert.ToString(dt.Rows[i][10]);
+                        double durIn = TimeSpan.Parse(TotaldurInHrs).TotalMinutes;
+
+                        string DurationinMin = Convert.ToDateTime(endDateTime).Subtract(Convert.ToDateTime(StartDateTime)).TotalMinutes.ToString();
+                        string durInMin = DurationinMin;
+                       
                         DateTime CreatedOn = DateTime.Now;
                         int CreatedBy = 1;
 
@@ -1044,6 +1054,24 @@ namespace OLECalApplication
             {
                 writer.WriteLine(System.DateTime.Now + ":  " + Msg);
             }
+        }
+
+        private string GetEndCorrectedDate(string EndTime,DateTime StartDate)
+        {
+            string CorrectedDate = "";
+
+            
+            TimeSpan EndTime1 = TimeSpan.Parse(EndTime);
+            TimeSpan  Start = TimeSpan.Parse("06:00:00");
+            if (Start < EndTime1)
+            {
+                CorrectedDate = StartDate.ToString("yyyy-MM-dd");
+            }
+            else
+            {
+                CorrectedDate = StartDate.AddDays(1).ToString("yyyy-MM-dd");
+            }
+            return CorrectedDate;
         }
     }
 }

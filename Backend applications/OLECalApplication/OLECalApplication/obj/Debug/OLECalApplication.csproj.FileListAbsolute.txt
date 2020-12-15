@@ -14,3 +14,19 @@ D:\Aswini\TSAL\BackEnd ApplicationsTALTSALTMAL\BackEnd Applications\OLECalApplic
 D:\Aswini\TSAL\BackEnd ApplicationsTALTSALTMAL\BackEnd Applications\OLECalApplication\OLECalApplication\OLECalApplication\obj\Debug\OLECalApplication.csproj.CopyComplete
 D:\Aswini\TSAL\BackEnd ApplicationsTALTSALTMAL\BackEnd Applications\OLECalApplication\OLECalApplication\OLECalApplication\obj\Debug\OLECalApplication.exe
 D:\Aswini\TSAL\BackEnd ApplicationsTALTSALTMAL\BackEnd Applications\OLECalApplication\OLECalApplication\OLECalApplication\obj\Debug\OLECalApplication.pdb
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\bin\Debug\OLECalApplication.exe.config
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\bin\Debug\OLECalApplication.exe
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\bin\Debug\OLECalApplication.pdb
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\bin\Debug\EntityFramework.dll
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\bin\Debug\EPPlus.dll
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\bin\Debug\EntityFramework.xml
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\bin\Debug\EntityFramework.SqlServer.xml
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\bin\Debug\EPPlus.xml
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\obj\Debug\OLECalApplication.csprojAssemblyReference.cache
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\obj\Debug\OLECalApplication.Properties.Resources.resources
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\obj\Debug\OLECalApplication.csproj.GenerateResource.cache
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\obj\Debug\OLECalApplication.csproj.CoreCompileInputs.cache
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\obj\Debug\OLECalApplication.csproj.CopyComplete
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\obj\Debug\OLECalApplication.exe
+D:\Ashok\Github_All_Latest\Backend applications\OLECalApplication\OLECalApplication\obj\Debug\OLECalApplication.pdb
