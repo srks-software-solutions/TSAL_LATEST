@@ -6,6 +6,7 @@ using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -28,7 +29,7 @@ namespace OLECalApplication
             string username1 = nwDetails1.UserName;
             string password1 = nwDetails1.Password;
             string domainname1 = nwDetails1.DomainName;
-            path1 = @"C:\TVS_batery\Source";
+            path1 = @"D:\PCS-DAS-Sync\HRMS";
             try
             {
                 //InitializeComponent();
@@ -100,11 +101,11 @@ namespace OLECalApplication
                     {
                         IntoFile(ex.ToString());
                     }
-                    Timer MyTimer = new Timer();
-                    //MyTimer.Interval = (20 * 1000); // 20 seconds
-                    MyTimer.Interval = (60 * 1000); // 1 minute
-                    MyTimer.Tick += new EventHandler(MyTimer_Tick);
-                    MyTimer.Start();
+                    //Timer MyTimer = new Timer();
+                    ////MyTimer.Interval = (20 * 1000); // 20 seconds
+                    //MyTimer.Interval = (60 * 1000); // 1 minute
+                    //MyTimer.Tick += new EventHandler(MyTimer_Tick);
+                    //MyTimer.Start();
 
                 }
                 else
@@ -146,22 +147,29 @@ namespace OLECalApplication
                         opid = Convert.ToString(dt.Rows[i][1]);
                         string CorrectedDate = null;
                         CorrectedDate = Convert.ToString(dt.Rows[i][6]);
-                        string stratDate = Convert.ToDateTime( CorrectedDate).ToString("yyyy-MM-dd");
+                        //string stratDate = Convert.ToDateTime( CorrectedDate).ToString("yyyy-MM-dd");
+                        DateTime date = Convert.ToDateTime(CorrectedDate,
+             System.Globalization.CultureInfo.GetCultureInfo("hi-IN").DateTimeFormat);
+                        string stratDate = date.ToString("yyyy-MM-dd");
                         string startTime = Convert.ToString(dt.Rows[i][7]);
                         if (startTime == "0" || startTime == "")
                             startTime = "00:00";
                         string StartDateTime = stratDate + " " + startTime;
                         string endTime = Convert.ToString(dt.Rows[i][8]);
                         
-                        string endDate = CorrectedDate;
+                        string endDate = stratDate;
                        
 
                         if (endTime == "0" || endTime == "")
                             endTime = "00:00";
-                        endDate = GetEndCorrectedDate(endTime,Convert.ToDateTime(stratDate));
+                        if (Convert.ToString(dt.Rows[i][8]) != "")
+                        {
+
+                            endDate = GetEndCorrectedDate(endTime, Convert.ToDateTime(stratDate));
+                        }
                         string endDateTime = endDate + " " + endTime;
                         string TotaldurInHrs = Convert.ToString(dt.Rows[i][10]);
-                        double durIn = TimeSpan.Parse(TotaldurInHrs).TotalMinutes;
+                        //double durIn = TimeSpan.Parse(TotaldurInHrs).TotalMinutes;
 
                         string DurationinMin = Convert.ToDateTime(endDateTime).Subtract(Convert.ToDateTime(StartDateTime)).TotalMinutes.ToString();
                         string durInMin = DurationinMin;
@@ -197,7 +205,7 @@ namespace OLECalApplication
 
             catch (Exception ex)
             {
-
+                
             }
         }
 
